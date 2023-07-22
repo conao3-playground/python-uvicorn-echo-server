@@ -11,6 +11,7 @@ uvicorn-echo-server = "uvicorn_echo_server.__main__:main"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pyyaml = "^6.0.1"
 
 [tool.poetry.group.dev.dependencies]
 uvicorn = "^0.23.1"
